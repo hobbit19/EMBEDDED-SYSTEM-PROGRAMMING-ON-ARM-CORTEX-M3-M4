@@ -37,8 +37,8 @@ Processor offers two access levels
 
 **-Non-Privilaged Access Level (NPAL**)
 
-  Lets say if your code is running with privileged access level, then your code has full access.That means it has full privilege to access all the processor specific resources and restricted registers.That means, a processor will have some restricted registers.By default code will run in PAL.
+  Lets say if your code is running with **privileged access level**, then your code has full access.That means it has full privilege to access all the processor specific resources and restricted registers.That means, a processor will have some restricted registers.By default code will run in PAL.
 
-  Suppose if your code is running with non-privileged access level, that is NPAL, then your code maynot have access to some of the restricted registers of the processor.
+  Suppose if your code is running with **non-privileged access level**, that is NPAL, then your code maynot have access to some of the restricted registers of the processor.
 
   When the processor is in thread mode.It's possible to move the processor into non-privileged access level.Once you move out of the privileged access level to the non-privileged access level being in thread mode,then it's not possible to come back to the privileged access level unless you change the processors operational mode to handler mode.So, when the processor is executing in handler mode, the access level will always be privileged.
