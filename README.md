@@ -1,7 +1,7 @@
 
 # EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3 / M4
 
-##processor Core:
+## Processor Core:
 - Nothing But The CPU.
 - Consists Of Many Cores.(Core Means Alu And Instruction Decoder And So...)
 
