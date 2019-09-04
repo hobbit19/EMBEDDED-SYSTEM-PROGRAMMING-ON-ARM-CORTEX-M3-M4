@@ -1,7 +1,7 @@
 
 # EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3 / M4
 
-#processor Core:
+##processor Core:
 - Nothing But The CPU.
 - Consists Of Many Cores.(Core Means Alu And Instruction Decoder And So...)
 
@@ -19,19 +19,23 @@
 
 ## Operational Mode of the processor:
 Processor gives two operational modes:
+
 **-   Thread mode**
+
 **-   Handler mode**
 
-  **Thread mode : **
+**Thread mode :**
 Application will run under this mode.It is also called as ***UserMode***
 Processor always starts with Thread Mode.
 
-   **Handler Mode**
-  Exceptions and Interrupts will run under this mode.So, that means whenever your processor hits with any system exceptions or any interrupts which comes from any peripherals, then the processor will immediately changes its mode to the handler mode and the interrupt service routine associated with that exception or interrupt will be executed under the handler mode.
+**Handler Mode :**
+ Exceptions and Interrupts will run under this mode.So, that means whenever your processor hits with any system exceptions or any interrupts which comes from any peripherals, then the processor will immediately changes its mode to the handler mode and the interrupt service routine associated with that exception or interrupt will be executed under the handler mode.
 ## Different level access of the processor:
 Processor offers two access levels
-**-  Privilaged Access Level (PAL)**
-**- Non-Privilaged Access Level (NPAL**)
+
+**-Privilaged Access Level (PAL)**
+
+**-Non-Privilaged Access Level (NPAL**)
 
   Lets say if your code is running with privileged access level, then your code has full access.That means it has full privilege to access all the processor specific resources and restricted registers.That means, a processor will have some restricted registers.By default code will run in PAL.
 
