@@ -1,5 +1,5 @@
 
-# EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3 / M4 by Swaraj
+# EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3 / M4
 
 ## Processor Core:
 - Nothing But The CPU.
@@ -53,13 +53,13 @@ Processor offers two access levels
 It stores the return information for subroutines, function calls, and exceptions. On reset, the processor sets the LR value to 0xFFFFFFFF.
 5. **Program Counter (PC)** is register R15. It contains the current program address. On reset, the processor loads the PC with the value of the reset vector, which is at address 0x00000004.Bit[0] of the value is loaded into the EPSR T-bit at reset and must be 1.
 6. **Program Status Register**
-The Program Status Register (PSR) combines:
+       The Program Status Register (PSR) combines:
 
-• Application Program Status Register (APSR)
+       • Application Program Status Register (APSR)
 
-• Interrupt Program Status Register (IPSR)
+       • Interrupt Program Status Register (IPSR)
 
-• Execution Program Status Register (EPSR).
+       • Execution Program Status Register (EPSR).
 
 ![alt text](https://github.com/swarajsomala/EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3-M4/blob/master/Images/PGstatusRegister.PNG)
 
