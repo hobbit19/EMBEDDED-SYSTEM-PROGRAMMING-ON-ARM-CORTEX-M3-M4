@@ -95,5 +95,5 @@ It stores the return information for subroutines, function calls, and exceptions
    5) PC jumps to the Reset handler.
    6) A Reset Handler is a function written in C or Assembly which performs the system initializations and invoking the main function.
    
-   ![Resetting process](https://raw.githubusercontent.com/swarajsomala/EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3-M4/master/Images/Capture_Reset.PNG)
+   ![Resetting process](https://raw.githubusercontent.com/swarajsomala/EMBEDDED-SYSTEM-PROGRAMMING-ON-ARM-CORTEX-M3-M4/master/Images/Reset.PNG)
   
